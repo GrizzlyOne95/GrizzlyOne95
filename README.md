@@ -1,7 +1,5 @@
 <!-- ========================================================= -->
-
 <!--                     GRIZZLYONE95                          -->
-
 <!-- ========================================================= -->
 
 <p align="center">
@@ -30,30 +28,7 @@
 <br>
 
 <!-- ========================================================= -->
-
-<!--                         BADGES                              -->
-
-<!-- ========================================================= -->
-
-<p align="center">
-    <a href="https://github.com/GrizzlyOne95?tab=followers">
-        <img
-            alt="GitHub Followers"
-            src="https://img.shields.io/github/followers/GrizzlyOne95?style=for-the-badge&logo=github&label=Followers&color=6e40c9&labelColor=212730"
-        />
-    </a>
-    <a href="https://github.com/GrizzlyOne95">
-        <img
-            alt="GitHub Profile Views"
-            src="https://komarev.com/ghpvc/?username=GrizzlyOne95&label=Profile%20Views&color=6e40c9&style=for-the-badge"
-        />
-    </a>
-</p>
-
-<!-- ========================================================= -->
-
 <!--                       TECH STACK                            -->
-
 <!-- ========================================================= -->
 
 <h2 align="center">Tech & Tools</h2>
@@ -96,9 +71,7 @@
 <br>
 
 <!-- ========================================================= -->
-
 <!--                     FEATURED WORK                          -->
-
 <!-- ========================================================= -->
 
 # Featured Work
@@ -144,26 +117,11 @@ A native compatibility and enhancement layer for Battlezone 98 Redux.
 
 Work includes engine reverse engineering, runtime patching, graphics modernization, performance analysis, UI extensions, compatibility fixes, and additional modding capabilities.
 
-<p align="left">
-    <a href="https://github.com/GrizzlyOne95/Battlezone98Redux_Shim">
-        <img src="https://img.shields.io/github/stars/GrizzlyOne95/Battlezone98Redux_Shim?style=for-the-badge&logo=github&color=205479&labelColor=222f40" alt="OpenShim Stars">
-    </a>
-    <a href="https://github.com/GrizzlyOne95/Battlezone98Redux_Shim">
-        <img src="https://img.shields.io/github/last-commit/GrizzlyOne95/Battlezone98Redux_Shim?style=for-the-badge&color=205479&labelColor=222f40" alt="OpenShim Last Commit">
-    </a>
-</p>
-
 <br>
 
 ### Campaign Reimagined
 
 A modernization and expansion of the original Battlezone campaign built around enhanced scripting, effects, rendering, mission logic, assets, and quality-of-life improvements.
-
-<p align="left">
-    <a href="https://github.com/GrizzlyOne95/Battlezone98Redux_CampaignReimagined">
-        <img src="https://img.shields.io/github/stars/GrizzlyOne95/Battlezone98Redux_CampaignReimagined?style=for-the-badge&logo=github&color=205479&labelColor=222f40" alt="Campaign Reimagined Stars">
-    </a>
-</p>
 
 <br>
 
@@ -197,9 +155,7 @@ A modernization and expansion of the original Battlezone campaign built around e
 <br>
 
 <!-- ========================================================= -->
-
 <!--                       OTHER WORK                            -->
-
 <!-- ========================================================= -->
 
 # Other Projects
@@ -246,9 +202,7 @@ My professional work is primarily systems and network administration, including:
 <br>
 
 <!-- ========================================================= -->
-
 <!--                         INTERESTS                            -->
-
 <!-- ========================================================= -->
 
 <h2 align="center">Side Interests</h2>
@@ -269,47 +223,6 @@ My professional work is primarily systems and network administration, including:
     Game development · Reverse engineering · PC hardware · Modding · 3D art · Automation
 </h3>
 
-<br>
-<br>
-
 <!-- ========================================================= -->
-
-<!--                       GITHUB STATS                           -->
-
-<!-- ========================================================= -->
-
-<hr>
-
-<br>
-
-<h2 align="center">GitHub</h2>
-
-<p align="center">
-    <img
-        height="170"
-        src="https://github-readme-stats.vercel.app/api?username=GrizzlyOne95&show_icons=true&theme=darcula&hide_border=true"
-        alt="GrizzlyOne95 GitHub Stats"
-    />
-    <img
-        height="170"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=GrizzlyOne95&theme=darcula&layout=compact&langs_count=8&hide_border=true"
-        alt="GrizzlyOne95 Top Languages"
-    />
-</p>
-
-<br>
-
-<p align="right">
-    <a href="https://github.com/GrizzlyOne95">
-        <img
-            alt="GitHub Views"
-            src="https://komarev.com/ghpvc/?username=GrizzlyOne95&label=GitHub%20Views&color=430098&style=for-the-badge"
-        />
-    </a>
-</p>
-
-<!-- ========================================================= -->
-
 <!--                           FIN                               -->
-
 <!-- ========================================================= -->
