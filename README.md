@@ -50,15 +50,6 @@
     </a>
 </p>
 
-<br>
-
-```text
-"Understand the system first.
-Then change only what you can prove needs changing."
-```
-
-<br>
-
 <!-- ========================================================= -->
 
 <!--                       TECH STACK                            -->
