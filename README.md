@@ -60,67 +60,97 @@
 
 ### Battlezone 98 Redux
 
-My primary game-development and reverse-engineering work centers on **Battlezone 98 Redux**: native runtime extensions, compatibility fixes, graphics modernization, performance analysis, modding APIs, content pipelines, mission scripting, and developer tooling.
+My primary open-source work centers on **Battlezone 98 Redux**: runtime patches, engine reverse engineering, mission scripting, native Lua extensions, content modernization, multiplayer tooling, and mod-development workflows.
 
 <p align="center">
   <a href="https://github.com/GrizzlyOne95/Battlezone98Redux_Shim">
     <img src="https://img.shields.io/badge/OpenShim-Engine_Extensions-6e40c9?style=for-the-badge&logo=github&logoColor=white&labelColor=212730" alt="OpenShim">
   </a>
   <a href="https://github.com/GrizzlyOne95/Battlezone98Redux_CampaignReimagined">
-    <img src="https://img.shields.io/badge/Campaign_Reimagined-Game_Content-6e40c9?style=for-the-badge&logo=github&logoColor=white&labelColor=212730" alt="Campaign Reimagined">
+    <img src="https://img.shields.io/badge/Campaign_Reimagined-Campaign_Overhaul-6e40c9?style=for-the-badge&logo=github&logoColor=white&labelColor=212730" alt="Campaign Reimagined">
   </a>
   <a href="https://github.com/GrizzlyOne95/ExtraUtilities">
-    <img src="https://img.shields.io/badge/Extra_Utilities-Modding_API-6e40c9?style=for-the-badge&logo=github&logoColor=white&labelColor=212730" alt="Extra Utilities">
+    <img src="https://img.shields.io/badge/Extra_Utilities-Native_Lua_API-6e40c9?style=for-the-badge&logo=github&logoColor=white&labelColor=212730" alt="Extra Utilities">
   </a>
 </p>
 
-**OpenShim** — Native compatibility and enhancement layer for Battlezone 98 Redux, including engine reverse engineering, runtime patching, rendering work, performance instrumentation, UI extensions, compatibility fixes, and additional modding capabilities.
+**[OpenShim](https://github.com/GrizzlyOne95/Battlezone98Redux_Shim)** is an open-source runtime patch and compatibility layer for Battlezone 98 Redux, providing engine-level fixes, restored behavior, multiplayer fixes, modding extensions, and opt-in native features beyond the stock mod API.
 
-**Campaign Reimagined** — Modernization and expansion of the original Battlezone campaign using enhanced scripting, effects, rendering, mission logic, assets, and quality-of-life improvements.
+**[Campaign Reimagined](https://github.com/GrizzlyOne95/Battlezone98Redux_CampaignReimagined)** is an experimental campaign overhaul and community patch combining rewritten Lua mission logic, shared gameplay systems, replacement content, renderer work, and native engine extensions.
 
-### Battlezone Tooling
+**[Extra Utilities](https://github.com/GrizzlyOne95/ExtraUtilities)** is a native Lua extension exposing engine, renderer, UI, object, multiplayer, environment, and gameplay controls not available through the stock mission API.
+
+**[bzfile](https://github.com/GrizzlyOne95/bzfile)** provides Lua-facing file I/O and supporting update/integrity functionality for Redux mods and addon tooling.
+
+### Battlezone Modding Tools
 
 <p align="center">
-  <a href="https://github.com/GrizzlyOne95/BZ98RBlenderToolKit">
-    <img src="https://img.shields.io/badge/BZ98R-Blender_Toolkit-205479?style=for-the-badge&logo=blender&logoColor=white&labelColor=222f40" alt="BZ98R Blender Toolkit">
+  <a href="https://github.com/GrizzlyOne95/Battlezone98_Modding_Toolbox">
+    <img src="https://img.shields.io/badge/Battlezone_98-Modding_Toolbox-205479?style=for-the-badge&logo=github&logoColor=white&labelColor=222f40" alt="Battlezone 98 Modding Toolbox">
   </a>
-  <a href="https://github.com/GrizzlyOne95/io_scene_bz2msh">
-    <img src="https://img.shields.io/badge/Blender-MSH_Importer_Exporter-205479?style=for-the-badge&logo=blender&logoColor=white&labelColor=222f40" alt="MSH Importer Exporter">
+  <a href="https://github.com/GrizzlyOne95/Battlezone_ModEngine">
+    <img src="https://img.shields.io/badge/Battlezone-Mod_Engine-205479?style=for-the-badge&logo=github&logoColor=white&labelColor=222f40" alt="Battlezone Mod Engine">
   </a>
-  <a href="https://github.com/GrizzlyOne95/io_scene_bz2xsi">
-    <img src="https://img.shields.io/badge/Blender-XSI_Tools-205479?style=for-the-badge&logo=blender&logoColor=white&labelColor=222f40" alt="XSI Tools">
+  <a href="https://github.com/GrizzlyOne95/Battlezone_BlenderToolKit">
+    <img src="https://img.shields.io/badge/Battlezone-Blender_Toolkit-205479?style=for-the-badge&logo=blender&logoColor=white&labelColor=222f40" alt="Battlezone Blender Toolkit">
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/GrizzlyOne95/Battlezone98Redux_WorldBuilder">
-    <img src="https://img.shields.io/badge/Redux-World_Builder-205479?style=for-the-badge&logo=github&logoColor=white&labelColor=222f40" alt="World Builder">
-  </a>
-  <a href="https://github.com/GrizzlyOne95/Battlezone98Redux_TextureManager">
-    <img src="https://img.shields.io/badge/Redux-Texture_Manager-205479?style=for-the-badge&logo=github&logoColor=white&labelColor=222f40" alt="Texture Manager">
-  </a>
-  <a href="https://github.com/GrizzlyOne95/Battlezone98Redux_AudioTool">
-    <img src="https://img.shields.io/badge/Redux-Audio_Tool-205479?style=for-the-badge&logo=github&logoColor=white&labelColor=222f40" alt="Audio Tool">
-  </a>
-</p>
+**[Battlezone 98 Modding Toolbox](https://github.com/GrizzlyOne95/Battlezone98_Modding_Toolbox)** is the consolidated all-in-one workspace for Battlezone 98 Redux projects. It brings mission/BZN inspection, ODF validation, dependencies, terrain/world workflows, texture and graphics conversion, model tools, audio, localization, archives, and Steam Workshop publishing into one application.
+
+**[Battlezone Mod Engine](https://github.com/GrizzlyOne95/Battlezone_ModEngine)** is a cross-platform Steam Workshop downloader and mod manager for non-Steam Battlezone 98 Redux and Battlezone Combat Commander installations, with Windows, Linux, and macOS release builds.
+
+**[Battlezone Blender Toolkit](https://github.com/GrizzlyOne95/Battlezone_BlenderToolKit)** is a full Blender import/export and authoring suite for classic Battlezone, The Red Odyssey, and Battlezone 98 Redux workflows, covering legacy and Redux models, terrain, archives, validation, and authoring helpers.
 
 ---
 
-## Other Work
+## Public Project Catalog
 
-### Gears of War Research
+These are the current public project repositories behind the portfolio, excluding this profile repository and the portfolio-site repository itself.
 
-<a href="https://github.com/GrizzlyOne95/GearsJudgement_PCNative">
-  <img src="https://img.shields.io/badge/Gears_Judgment-PC_Native_Research-8b0000?style=for-the-badge&logo=github&logoColor=white&labelColor=212730" alt="Gears Judgment PC Native">
-</a>
+### Battlezone Runtime, Mods & Community Tools
 
-Reverse engineering and research aimed at reconstructing and understanding native PC execution paths for **Gears of War: Judgment** using the UE3-era Gears PC codebase.
+| Repository | Focus |
+| --- | --- |
+| **[Battlezone98Redux_Shim](https://github.com/GrizzlyOne95/Battlezone98Redux_Shim)** | OpenShim runtime patch, compatibility layer, reverse engineering, fixes, and native extensions for Redux. |
+| **[Battlezone98Redux_CampaignReimagined](https://github.com/GrizzlyOne95/Battlezone98Redux_CampaignReimagined)** | Integrated campaign overhaul, mission rewrites, assets, rendering work, shared Lua systems, and native-extension integration. |
+| **[ExtraUtilities](https://github.com/GrizzlyOne95/ExtraUtilities)** | Native Lua API exposing additional engine, renderer, UI, object, multiplayer, and gameplay controls. |
+| **[bzfile](https://github.com/GrizzlyOne95/bzfile)** | Lua-facing file I/O library and supporting integrity/update functionality for Redux mods. |
+| **[Battlezone_LobbyMonitor](https://github.com/GrizzlyOne95/Battlezone_LobbyMonitor)** | External Battlezone 98 Redux multiplayer lobby monitor, client, Discord bridge, automation, and activity tooling. |
+| **[Battlezone1.5_Shim-](https://github.com/GrizzlyOne95/Battlezone1.5_Shim-)** | Narrow compatibility shim for Battlezone 1.5 fullscreen menus, HUD scaling, and legacy menu video behavior. |
 
-### Game Development
+### Modding, Content & Blender Tooling
 
-I also work with **Unreal Engine**, **Blender**, **Substance 3D Painter**, and supporting asset/content pipelines for original game-development projects.
+| Repository | Focus |
+| --- | --- |
+| **[Battlezone98_Modding_Toolbox](https://github.com/GrizzlyOne95/Battlezone98_Modding_Toolbox)** | Consolidated Battlezone 98 Redux modding workspace for missions, terrain, validation, assets, archives, and Workshop publishing. |
+| **[Battlezone_ModEngine](https://github.com/GrizzlyOne95/Battlezone_ModEngine)** | Cross-platform Workshop mod downloader and manager for Battlezone 98 Redux and Combat Commander. |
+| **[Battlezone_BlenderToolKit](https://github.com/GrizzlyOne95/Battlezone_BlenderToolKit)** | Blender authoring suite for classic Battlezone, Red Odyssey, and Redux assets and terrain. |
+| **[io_scene_bz2msh](https://github.com/GrizzlyOne95/io_scene_bz2msh)** | Blender importer for Battlezone II / Combat Commander MSH assets, including animation, PAK, materials, and texture support. |
+| **[io_scene_bz2xsi](https://github.com/GrizzlyOne95/io_scene_bz2xsi)** | Blender importer/exporter for Battlezone II / Combat Commander XSI assets, including animation, envelopes, PAK browsing, and Softimage PIC support. |
+| **[BlenderUVAtlasGenerator](https://github.com/GrizzlyOne95/BlenderUVAtlasGenerator)** | Blender UV-atlas generator that consolidates shader materials while preserving existing UV layouts and islands. |
+| **[BZNTools](https://github.com/GrizzlyOne95/BZNTools)** | Reference-oriented Battlezone BZN format documentation and parser implementation retained for reverse-engineering value. |
 
-### Systems & Infrastructure
+### Preservation, Extraction & Reverse Engineering
+
+| Repository | Focus |
+| --- | --- |
+| **[Battlezone_PSPExtractor](https://github.com/GrizzlyOne95/Battlezone_PSPExtractor)** | Extraction, format research, gameplay reverse engineering, and port-oriented tooling for Battlezone PSP. |
+| **[Battlezone_Gold_Extractor](https://github.com/GrizzlyOne95/Battlezone_Gold_Extractor)** | Asura-engine archive, model, texture, and audio extraction/reverse-engineering toolkit for Battlezone Gold Edition (2017). |
+| **[Battlezone2_ArtAssets](https://github.com/GrizzlyOne95/Battlezone2_ArtAssets)** | Preservation and reconstruction tooling for original Battlezone II Softimage-era art sources. |
+| **[GearsJudgement_PCNative](https://github.com/GrizzlyOne95/GearsJudgement_PCNative)** | Original tooling and technical research toward a native PC port of Gears of War: Judgment. |
+
+---
+
+## Game Development & 3D Work
+
+Alongside Battlezone and reverse-engineering projects, I work with **Unreal Engine**, **Blender**, and **Substance 3D Painter** on original game-development, modeling, materials, conversion, and asset-pipeline work.
+
+A growing portion of the Battlezone tooling above also comes directly from that 3D workflow: model reconstruction, format conversion, UV/material processing, Blender import/export, terrain authoring, and preservation of legacy content.
+
+---
+
+## Systems & Infrastructure
 
 My professional work is primarily systems and network administration, including Windows infrastructure, Active Directory and Group Policy, Microsoft 365, Remote Desktop Services, Hyper-V, backup and disaster recovery, network/security administration, mobile-device management, PowerShell/Python automation, and EDI integrations.
 
@@ -128,7 +158,7 @@ My professional work is primarily systems and network administration, including 
 
 ## More
 
-The full project catalog, Battlezone work, media, tools, mods, and other research are organized on my portfolio site:
+The portfolio site organizes the broader project catalog, media, mods, artwork, and research:
 
 <p align="center">
   <a href="https://grizzlyone95.github.io/">
